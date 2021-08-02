@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Palíndromo</title>
+  <meta name="author" content="Gustavo Vera Gómez" />
+  <meta name="copyright" content="Gustavo Vera Gómez" />
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+  <div class="c_form">
+    <div class="">
+      <label>Valida si una frase es palíndromo</label>
+      <input type="text" placeholder="Digita frase" id="fieldText">
+      <a href="#" class="validate">Validar Palíndromo</a>
+      <div>
+        <div class="c_true">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_amafml4w.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+          <p><span class="returnpalindromo"></span><b>Si es un Palíndromo</b></p>
+        </div>
+        <div class="c_false">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_bkfdudbp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+          <p><span class="returnpalindromo"></span>No es un Palíndromo</></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

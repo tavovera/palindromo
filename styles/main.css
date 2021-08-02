@@ -1,0 +1,21 @@
+/*Autor: Gustavo Vera*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+html{font-size: 1rem;}
+
+body{margin: 0; padding: 0; font-family: 'Mukta', sans-serif; color: #2c5282;}
+*{box-sizing: border-box;}
+
+.c_form{ max-width: 500px; margin: 0 auto; text-align: center; display: flex; height: 100vh; align-items: center; justify-content: center;}
+.c_form *{ display: block; text-align: center; width: 100%; margin: 0 auto;}
+.c_form input{ border: 1px solid #ccc; height: 50px;margin: 1rem 0; padding: 0 .5rem; font-size: 1rem; background: none; border-radius: .5rem;color: #2c5282;}
+.c_form input:focus{ border-color: #999;}
+label{ font-size: 2rem;}
+a{ text-decoration: none; background:#2c5282; border-radius: .5rem; line-height: 50px; color: #fff; transition: all .3s;}
+a:hover{ background: #326cb3;}
+.c_true, .c_false{ opacity: 0; visibility: hidden; text-align: center;transition: all .3s; transform: scale(0.5); max-height: 0;}
+.c_true.active, .c_false.active{transform: scale(1);opacity: 1; visibility: visible;max-height: 300px;}
+p{ font-size: 1.8rem;}
+.c_true{color: #3db31a;}
+.c_false{color: #cb2f2f;}
+.returnpalindromo{ font-size: 1rem; display: block; color: #2c5282; font-style: italic;}
